@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Игорь Кейпа](https://up.htmlacademy.ru/htmlcss/15/user/147815).
-* Наставник: `Неизвестно`.
+* Наставник: [Максим Фарига](https://htmlacademy.ru/profile/maximfariga).
 
 ---
 
