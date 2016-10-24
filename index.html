@@ -10,7 +10,7 @@
         <a href="#"><b>Device</b></a>
       </div>
       <div class="search">
-        search
+        <input type="text" name="search" value="поиск по сайту">
       </div>
       <div class="breadcrumbs">
         <div class="enter-exit">
@@ -32,28 +32,74 @@
     </header>
     <main>
       <section class="slider">
-        <div class="slider-image">
-          <img src="" alt="">
-        </div>
-        <div class="slider-text">
-          <h2>Делай селфи, как Бен Стиллер!</h2>
-          <p>
-            Самая длинная палка для селфи доступна в нашем магазине.
-            Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.
-          </p>
-          <a href="#">Подробнее</a>
-          <ul class="slider-dot">
-            <li class="dot"><button type="button" name="button"></button></li>
-            <li class="dot"><button type="button" name="button"></button></li>
-            <li class="dot"><button type="button" name="button"></button></li>
-          </ul>
-          <div class="features">
-            <ul>
-              <li><span class="feature-item">8.5 метров</span><span class="feature-description">Длина палки</span></li>
-              <li><span class="feature-item">5 кг</span><span class="feature-description">Вес палки</span></li>
-              <li><span class="feature-item">Карбон</span><span class="feature-description">Материал</span></li>
-            </ul>
+        <input type="radio" id="radio-1">
+        <input type="radio" id="radio-2">
+        <input type="radio" id="radio-3">
+        <div class="slider-container">
+
+          <div class="slide-1">
+            <div class="slider-image">
+              <img src="" alt="image">
+            </div>
+            <div class="slider-text">
+              <h2>Делай селфи, как Бен Стиллер!</h2>
+              <p>
+                Самая длинная палка для селфи доступна в нашем магазине.
+                Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.
+              </p>
+              <a href="#">Подробнее</a>
+              <div class="features">
+                <ul>
+                  <li><span class="feature-item">8.5 метров</span><span class="feature-description">Длина палки</span></li>
+                  <li><span class="feature-item">5 кг</span><span class="feature-description">Вес палки</span></li>
+                  <li><span class="feature-item">Карбон</span><span class="feature-description">Материал</span></li>
+                </ul>
+              </div>
+            </div>
           </div>
+
+          <div class="slide-2">
+            <div class="slider-image">
+              <img src="" alt="image">
+            </div>
+            <div class="slider-text">
+              <h2>Slide-2</h2>
+              <p>
+                Самая длинная палка для селфи доступна в нашем магазине.
+                Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.
+              </p>
+              <a href="#">Подробнее</a>
+              <div class="features">
+                <ul>
+                  <li><span class="feature-item">8.5 метров</span><span class="feature-description">Длина палки</span></li>
+                  <li><span class="feature-item">5 кг</span><span class="feature-description">Вес палки</span></li>
+                  <li><span class="feature-item">Карбон</span><span class="feature-description">Материал</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide-3">
+            <div class="slider-image">
+              <img src="" alt="image">
+            </div>
+            <div class="slider-text">
+              <h2>Slide-3</h2>
+              <p>
+                Самая длинная палка для селфи доступна в нашем магазине.
+                Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.
+              </p>
+              <a href="#">Подробнее</a>
+              <div class="features">
+                <ul>
+                  <li><span class="feature-item">8.5 метров</span><span class="feature-description">Длина палки</span></li>
+                  <li><span class="feature-item">5 кг</span><span class="feature-description">Вес палки</span></li>
+                  <li><span class="feature-item">Карбон</span><span class="feature-description">Материал</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
         </div>
       </section>
       <section class="catalog">
@@ -96,20 +142,40 @@
           </li>
         </ul>
       </section>
-      <section class="delivery">
-        <div class="select-service">
-          <button type="button" name="button">Доставка</button>
-          <button type="button" name="button">Гарантия</button>
-          <button type="button" name="button">Кредит</button> <!--Или это ссылки? -->
-        </div>
-        <div class="service-description">
-          <h2>Доставка</h2>
-          <p>
-            Мы с удовольствием доставим ваш товар прямо к вашему
-            подъезду совершенно бесплатно! Ведь мы неплохо
-            заработаем, поднимая его на ваш этаж.
-          </p>
-        </div>
+      <section class="service">
+          <input type="radio" id="delivery">
+          <input type="radio" id="guarantee">
+          <input type="radio" id="credit">
+          <div class="service-container">
+
+            <div class="delivery-service">
+              <h2>Доставка</h2>
+              <p>
+              Мы с удовольствием доставим ваш товар прямо к вашему
+              подъезду совершенно бесплатно! Ведь мы неплохо
+              заработаем, поднимая его на ваш этаж.
+              </p>
+            </div>
+
+            <div class="guarantee-service">
+              <h2>Гарантия</h2>
+              <p>
+              Мы с удовольствием доставим ваш товар прямо к вашему
+              подъезду совершенно бесплатно! Ведь мы неплохо
+              заработаем, поднимая его на ваш этаж.
+              </p>
+            </div>
+
+            <div class="credit-service">
+              <h2>Кредит</h2>
+              <p>
+              Мы с удовольствием доставим ваш товар прямо к вашему
+              подъезду совершенно бесплатно! Ведь мы неплохо
+              заработаем, поднимая его на ваш этаж.
+              </p>
+            </div>
+
+          </div>
       </section>
       <section class="brands">
         <ul>
