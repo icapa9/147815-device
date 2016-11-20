@@ -15,32 +15,28 @@
           </div>
           <div class="header-top-wrap">
             <div class="search">
-              <span class="loupe"></span>
-              <input type="text" name="search" value="поиск по сайту">
+              <input type="text" name="search" placeholder="Поиск по сайту">
               <button type="submit" name="button">Найти</button>
             </div><!--
             --><div class="header-top">
-              <div class="enter-exit">
-                <span class="enter-icon"></span>
+              <div class="header-enter-exit">
                 <a href="#">Валентин Петухов</a>
                 <a href="#">Выйти</a>
               </div>
-              <ul>
+              <ul class="top-icons">
                 <li>
-                  <span class="graph-icon"></span>
-                  <a href="#">Сравнить</a>
+                  <a class="compare-icon-head" href="#">Сравнить</a>
                 </li><!--
                 --><li>
-                  <span class="basket-icon"></span>
-                  <a href="#">Корзина</a>
+                  <a class="basket-icon-head" href="#">Корзина</a>
                 </li>
               </ul>
             </div>
           </div>
           <nav>
             <ul class="catalog-nav">
-              <li><a href="#">Каталог товаров</a>
-                <button type="button" name="open-menu">+</button>
+              <li><a class="open-menu" href="#">Каталог товаров</a>
+                <button type="button" name="open-menu"></button>
                 <div class="catalog-menu">
                   <ul class="column-1">
                     <li><a href="#">Виртуальная реальность</a></li>
@@ -77,28 +73,41 @@
             <section class="filter">
               <h4>Фильтр:</h4>
               <form class="inner-form" action="https://echo.htmlacademy.ru" method="post">
-                <fieldset>
-                  <legend><h4>Стоимость</h4></legend>
+                <fieldset class="price">
+                  <h4>Стоимость</h4>
+                  <div class="range-filter">
+                    <div class="range-controls">
+                      <div class="scale">
+                        <div class="bar"></div>
+                      </div>
+                      <div class="toggle toggle-min "></div>
+                      <div class="toggle toggle-max"></div>
+                    </div>
+                    <div class="price-controls">
+                      <input type="text" name="min-price" placeholder="от 0"><!--
+                      --><input type="text" name="max-price" placeholder="до 5000">
+                    </div>
+                  </div>
                 </fieldset>
                 <fieldset class="color">
-                  <legend><h4>Цвет</h4></legend>
-                <input type="checkbox" name="black" id="black" checked>
-                <label for="black">Черный</label>
-                <input type="checkbox" name="white" id="white">
-                <label for="white">Белый</label>
-                <input type="checkbox" name="blue" id="blue" checked>
-                <label for="blue">Синий</label>
-                <input type="checkbox" name="red" id="red" checked>
-                <label for="red">Красный</label>
-                <input type="checkbox" name="pink" id="pink">
-                <label for="pink">Розовый</label>
+                  <h4>Цвет</h4>
+                  <input type="checkbox" name="black" id="black" checked>
+                  <label class="checked" for="black">Черный</label>
+                  <input type="checkbox" name="white" id="white">
+                  <label for="white">Белый</label>
+                  <input type="checkbox" name="blue" id="blue" checked>
+                  <label class="checked" for="blue">Синий</label>
+                  <input type="checkbox" name="red" id="red" checked>
+                  <label class="checked" for="red">Красный</label>
+                  <input type="checkbox" name="pink" id="pink">
+                  <label for="pink">Розовый</label>
                 </fieldset>
-                <fieldset>
-                  <legend><h4>Bluetooth</h4></legend>
-                <input type="radio" name="bluetooth" value="yes" id="yes" checked>
-                <label for="yes">Есть</label>
-                <input type="radio" name="bluetooth" value="no" id="no">
-                <label for="no">Нет</label>
+                <fieldset class="bluetooth">
+                  <h4>Bluetooth</h4>
+                  <input type="radio" name="bluetooth" value="yes" id="yes" checked>
+                  <label class="checked" for="yes">Есть</label>
+                  <input type="radio" name="bluetooth" value="no" id="no">
+                  <label for="no">Нет</label>
                 </fieldset>
                 <button type="submit">Показать</button>
               </form>
@@ -107,14 +116,14 @@
               <div class="sort">
                 <h4>Сортировка:</h4>
                 <ul class="sort-list">
-                  <li><a href="#">По цене</a></li><!--
+                  <li><a class="active" href="#">По цене</a></li><!--
                   --><li><a href="#">По типу</a></li><!--
                   --><li><a href="#">По популярности</a></li>
                 </ul>
                 <div class="triangles">
                   <ul>
-                    <li><button class="up" type="button" name="up">up</button></li>
-                    <li><button class="down" type="button" name="down">down</button></li>
+                    <li><button class="up" type="button" name="up"></button></li><!--
+                    --><li class="active"><button class="down" type="button" name="down"></button></li>
                   </ul>
                 </div>
               </div>
@@ -133,8 +142,8 @@
                     <a href="#"><img src="img/item-2.jpg" width="360" height="380" alt="image"></a>
                   </div>
                   <div class="article-description">
-                    <a class="article-name" href="#">Профессиональная селфи-палка</a>
-                    <span class="article-cost">1500 руб.</span>
+                    <a class="article-name" href="#">Профессиональная<br> селфи-палка</a>
+                    <span class="article-cost">1 500 руб.</span>
                   </div>
                 </article><!--
                 --><article class="box">
@@ -143,7 +152,7 @@
                   </div>
                   <div class="article-description">
                     <a class="article-name" href="#">Непотопляемая селфи-палка</a>
-                    <span class="article-cost">2500 руб.</span>
+                    <span class="article-cost">2 500 руб.</span>
                   </div>
                 </article><!--
                 --><article class="box">
@@ -151,8 +160,8 @@
                     <a href="#"><img src="img/item-4.jpg" width="360" height="380" alt="image"></a>
                   </div>
                   <div class="article-description">
-                    <a class="article-name" href="#">Селфи-палка "Следуй за мной"</a>
-                    <span class="article-cost">4900 руб.</span>
+                    <a class="article-name" href="#">Селфи-палка &laquo;Следуй за мной&raquo;</a>
+                    <span class="article-cost">4 900 руб.</span>
                   </div>
                 </article>
                 <div class="pagination">
@@ -171,22 +180,19 @@
         <footer>
           <div class="footer-top">
             <div class="index-logo">
-              <a href="#">Device</a>
+              <a class="footer-logo" href="#">Device</a>
             </div><!--
             --><div class="footer-top-wrap">
-              <div class="enter-exit">
-                <span class="enter-icon"></span>
+              <div class="footer-enter-exit">
                 <a href="#">Валентин Петухов</a><!--
                 --><a href="#">Выйти</a>
               </div><!--
-              --><ul>
+              --><ul class="footer-icons">
                 <li>
-                  <span class="graph-icon"></span>
-                  <a href="#">Сравнить</a>
+                  <a class="compare-icon-footer" href="#">Сравнить</a>
                 </li><!--
                 --><li>
-                  <span class="basket-icon"></span>
-                  <a href="#">Корзина</a>
+                  <a class="basket-icon-footer" href="#">Корзина</a>
                 </li>
               </ul>
             </div>
@@ -195,26 +201,26 @@
             <div class="adress">
                 г. Москва, ул. Строителей, 15
             </div><!--
-            --><nav class="footer-nav">
-              <ul>
+            --><nav>
+              <ul class="footer-nav">
                 <li><a href="#">Доставка</a></li><!--
                 --><li><a href="#">Гарантия</a></li><!--
                 --><li><a href="#">Контакты</a></li>
               </ul>
             </nav><!--
             --><div class="tel">
-              Тел.: +7(495)495-95-95
+              Тел.: +7 (495) 495-95-95
             </div>
           </div>
           <div class="footer-bottom">
             <div class="social">
               <ul>
-                <li><a class="btn" href="#">Facebook</a></li><!--
-                --><li><a class="btn" href="#">Instagram</a></li><!--
-                --><li><a class="btn" href="#">Twitter</a></li>
+                <li><a class="social-fb" href="#"></a></li>
+                <li><a class="social-ins" href="#"></a></li>
+                <li><a class="social-tw" href="#"></a></li>
               </ul>
             </div>
-            <a class="made-by" href="#"><span class="made-by-logo">logo<span></a>
+            <a class="made-by" href="#"><span class="made-by-logo"><span></a>
           </div>
         </footer>
       </div>
