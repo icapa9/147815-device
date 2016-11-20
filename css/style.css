@@ -40,6 +40,10 @@
   display: none;
 }
 
+.main-form {
+  display: block;
+}
+
 body {
   font-size: 15px;
   line-height: 30px;
@@ -625,8 +629,6 @@ nav a:active {
   opacity: 0.1;
 }
 
-
-
 .catalog-nav,
 .extra-nav {
   width: 50%;
@@ -765,7 +767,7 @@ nav a:active {
   left: 38px;
   width: 86px;
   height: 117px;
-  background: url("../img/catalog-sprite.png") no-repeat -219px -84px;
+  background: url("../img/catalog-sprite.png") no-repeat -112px -84px;
 }
 
 .action-item::before {
@@ -775,7 +777,7 @@ nav a:active {
   left: 49px;
   width: 71px;
   height: 87px;
-  background: url("../img/catalog-sprite.png") no-repeat -315px -132px;
+  background: url("../img/catalog-sprite.png") no-repeat -208px -5px;
 }
 
 .fitness-item::before {
@@ -785,7 +787,7 @@ nav a:active {
   left: 28px;
   width: 107px;
   height: 65px;
-  background: url("../img/catalog-sprite.png") no-repeat -86px -229px;
+  background: url("../img/catalog-sprite.png") no-repeat -5px -211px;
 }
 
 .watch-item::before {
@@ -795,7 +797,7 @@ nav a:active {
   left: 55px;
   width: 56px;
   height: 98px;
-  background: url("../img/catalog-sprite.png") no-repeat -320px -229px;
+  background: url("../img/catalog-sprite.png") no-repeat -208px -102px;
 }
 
 .copter-item::before {
@@ -1207,9 +1209,35 @@ nav a:active {
   line-height: 18px;
   font-family: "opensans";
   letter-spacing: 0em;
-  background-color: #f2f2f2;
+  background-color: #e5e5e5;
+  opacity: 0.5;
+  box-sizing: border-box;
 }
 
+.main-form input:hover,
+.main-form textarea:hover {
+  background-color: #e5e5e5;
+  opacity: 0.8;
+}
+
+.main-form input:focus,
+.main-form textarea:focus {
+  padding-left: 17px;
+  border: 3px solid #e5e5e5;
+  background-color: #ffffff;
+  opacity: 1;
+}
+
+.main-form textarea:focus {
+  padding-top: 12px;
+  padding-left: 17px;
+}
+
+/*.main-form input:invalid,
+.main-form textarea:invalid {
+  background-color: #edb5b5;
+  opacity: 0.5;
+}*/
 
 label[for="name"] {
   margin-right: 311px;
@@ -2044,12 +2072,14 @@ fieldset h4 {
   display: inline-block;
   vertical-align: top;
   margin-bottom: 49px;
-  width: 360px;
 }
 
 .image-box {
   position: relative;
   margin-bottom: 33px;
+  width: 360px;
+  height: 380px;
+  background-color: #eeeeee;
 }
 
 .image-box img {
@@ -2059,8 +2089,84 @@ fieldset h4 {
   max-height: 100%;
 }
 
-.image-box a {
+.add-item {
+  display: none;
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  padding-top: 168px;
+  width: 360px;
+  height: 380px;
+  text-align: center;
+  background: rgba(238, 238, 238, 0.7);
+  box-sizing: border-box;
+}
+
+.image-box:hover .add-item {
   display: block;
+}
+
+.add-item .btn {
+  position: relative;
+  z-index: 1;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 4px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  width: 200px;
+  font-size: 18px;
+  line-height: 22px;
+  font-family: "gilroyextrabold";
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  background-color: rgba(238, 238, 238, 0);
+}
+
+.add-item .btn::before {
+  position: absolute;
+  top: 18px;
+  left: 0px;
+  z-index: -1;
+  content: "";
+  width: 200px;
+  height: 8px;
+  background-color: #f0c52e;
+}
+
+ .add-item .btn:hover {
+  background-color: #f0c52e;
+}
+
+ .add-item .btn:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.add-item .compare {
+  font-size: 13px;
+  line-height: 36px;
+  font-family: "opensanslight";
+  font-weight: normal;
+  opacity: 0.5
+}
+
+.add-item .compare:hover {
+  opacity: 1;
+}
+
+.add-item .compare:active {
+  opacity: 0.2;
+}
+
+.sticker-new::before {
+  position: absolute;
+  top: 28px;
+  right: 27px;
+  content: "";
+  width: 60px;
+  height: 61px;
+  background: url("../img/NEW.png");
 }
 
 .box:nth-child(odd) {
