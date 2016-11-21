@@ -34,16 +34,6 @@
   font-weight: 300;
 }
 
-.main-form,
-.catalog-menu,
-.map-popup {
-  display: none;
-}
-
-.main-form {
-  display: block;
-}
-
 body {
   font-size: 15px;
   line-height: 30px;
@@ -585,7 +575,7 @@ nav a:active {
 }
 
 .catalog-nav .open-menu {
-  margin-right: 7px;
+  margin-left: 7px;
 }
 
 .catalog-nav button {
@@ -660,6 +650,7 @@ nav a:active {
 }
 
 .catalog-menu {
+  display: none;
   position: absolute;
   z-index: 100;
   left: -60px;
@@ -671,7 +662,7 @@ nav a:active {
   box-sizing: border-box;
 }
 
-.catalog-nav > li:hover .catalog-menu {
+.catalog-menu-show {
   display: block;
 }
 
@@ -1162,6 +1153,7 @@ nav a:active {
 }
 
 .map-popup {
+  display: none;
   position: fixed;
   z-index: 1000;
   top: 50%;
@@ -1173,6 +1165,10 @@ nav a:active {
   background: url("../img/map-big.jpg");
 }
 
+.map-popup-show {
+  display: block;
+}
+
 .map-popup button[name="close"] {
   position: absolute;
   top: 20px;
@@ -1180,6 +1176,7 @@ nav a:active {
 }
 
 .main-form {
+  display: none;
   position: fixed;
   z-index: 1000;
   top: 50%;
@@ -1194,6 +1191,10 @@ nav a:active {
   background-color: #ffffff;
   box-shadow: 0px 10px 50px 10px rgba(0, 0, 0, 0.3);
   box-sizing: border-box;
+}
+
+.main-form-show {
+  display: block;
 }
 
 .main-form label {
