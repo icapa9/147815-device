@@ -1,35 +1,17 @@
 @font-face {
-  font-family: "gilroyextrabold";
+  font-family: "Gilroy";
   src:
    url("../fonts/gilroyextrabold.woff") format("woff"),
    url("../fonts/gilroyextrabold.woff2") format("woff2");
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 @font-face {
-  font-family: "gilroylight";
+  font-family: "Gilroy";
   src:
    url("../fonts/gilroylight.woff") format("woff"),
    url("../fonts/gilroylight.woff2") format("woff2");
-  font-style: normal;
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "opensans";
-  src:
-   url("../fonts/opensans.woff") format("woff"),
-   url("../fonts/opensans.woff2") format("woff2");
-  font-style: normal;
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "opensanslight";
-  src:
-   url("../fonts/opensanslight.woff") format("woff"),
-   url("../fonts/opensanslight.woff2") format("woff2");
   font-style: normal;
   font-weight: 300;
 }
@@ -38,8 +20,8 @@ body {
   font-size: 15px;
   line-height: 30px;
   color: #464646;
-  font-family: "opensanslight", "Open Sans", "Arial", sans-serif;
-  font-weight: normal;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 400;
   letter-spacing: 0.01em;
 }
 
@@ -47,16 +29,16 @@ h2 {
   font-size: 47px;
   line-height: 56px;
   color: #000000;
-  font-family: "gilroyextrabold", "Arial", sans-serif;
-  font-weight: bold;
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-weight: 700;
 }
 
 a {
   font-size: 18px;
   line-height: 22px;
   color: #000000;
-  font-family: "gilroyextrabold", "Arial", sans-serif;
-  font-weight: bold;
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-weight: 700;
   text-decoration: none;
 }
 
@@ -105,11 +87,11 @@ header {
 }
 
 .header-top-wrap a {
-  font-family: "opensanslight";
+  font-family: "Open Sans";
   font-size: 15px;
   line-height: 36px;
   letter-spacing: 0.01em;
-  font-weight: normal;
+  font-weight: 300;
   text-decoration: none;
 }
 
@@ -120,10 +102,10 @@ header .index-logo {
 }
 
 .index-logo a {
-  font-family: "gilroyextrabold";
+  font-family: "Gilroy";
   font-size: 48px;
   line-height: 48px;
-  font-weight: bold;
+  font-weight: 700;
   letter-spacing: 0.01em;
   text-decoration: none;
   text-transform: uppercase;
@@ -381,6 +363,7 @@ header li {
   margin-left: 124px;
   text-align: left;
   width: 495px;
+  font-weight: 300;
   box-sizing: border-box;
 }
 
@@ -429,6 +412,10 @@ header li {
   width: 505px;
 }
 
+.slide-3 .feature-item {
+  margin-right: 28px;
+}
+
 .features ul {
   margin: 0;
   padding: 0;
@@ -441,26 +428,32 @@ header li {
 
 .features .feature-item {
   display: block;
+  margin-bottom: 7px;
+  padding-left: 2px;
   font-size: 36px;
   line-height: 47px;
   text-align: left;
-  font-family: "gilroylight";
+  font-family: "Gilroy";
+  font-weight: 300;
   color: #000000;
 }
 
-.features .feature-desicription {
+.features .feature-description {
   display: block;
+  padding-left: 2px;
   font-size: 13px;
   line-height: 20px;
-  font-family: "opensanslight";
+  font-weight: 300;
+  letter-spacing: 0.01em;
 }
 
 .features li {
-  margin-right: 71px;
+  min-width: 100px;
+  margin-right: 60px;
 }
 
 .features li:nth-of-type(2) {
-  margin-right: 68px;
+  margin-right: 39px;
 }
 
 .features li:last-child {
@@ -669,8 +662,8 @@ nav a:active {
 .catalog-menu a {
   font-size: 15px;
   line-height: 36px;
-  font-family: "opensanslight";
-  font-weight: normal;
+  font-family: "Open Sans";
+  font-weight: 300;
   text-transform: none;
   letter-spacing: 0.01em;
 }
@@ -897,12 +890,12 @@ nav a:active {
   margin-bottom: 25px;
   padding-right: 106px;
   width: 280px;
-  font-family: "gilroyextrabold";
+  font-family: "Gilroy";
   font-size: 18px;
   line-height: 22px;
   letter-spacing: 3px;
   color: #000000;
-  font-weight: bold;
+  font-weight: 700;
   text-align: center;
   text-transform: uppercase;
   box-sizing: border-box;
@@ -943,6 +936,12 @@ nav a:active {
   background-color: #000000;
 }
 
+.service .active,
+.service .active:hover {
+  color: #f7e184;
+  background-color: #000000;
+}
+
 .service-text {
   display: inline-block;
   vertical-align: top;
@@ -952,17 +951,18 @@ nav a:active {
 .service-text p {
   margin: 0;
   width: 450px;
+  font-weight: 300;
 }
 
 .service span {
   display: block;
   margin-top: -11px;
   margin-bottom: 26px;
-  font-family: "gilroyextrabold";
+  font-family: "Gilroy";
   font-size: 47px;
   line-height: 57px;
   letter-spacing: 0.01em;
-  font-weight: bold;
+  font-weight: 700;
   color: #000000;
 }
 
@@ -1026,7 +1026,7 @@ nav a:active {
 
 .info-about-us {
   padding-top: 45px;
-  margin-bottom: 83px;
+  margin-bottom: 82px;
 }
 
 .info-about-us h2 {
@@ -1039,7 +1039,7 @@ nav a:active {
   display: inline-block;
   vertical-align: top;
   margin-right: 40px;
-  padding-right: 130px;
+  padding-right: 85px;
   width: 560px;
   box-sizing: border-box;
 }
@@ -1054,13 +1054,20 @@ nav a:active {
   background-color: #000000;
 }
 
-.about-us p {
+.about-us p,
+.contacts p  {
   margin: 0;
   margin-bottom: 30px;
+  font-weight: 300;
+  letter-spacing: 0;
 }
 
 .about-us p:last-of-type {
-  margin-bottom: 36px;
+  margin-bottom: 66px;
+}
+
+.contacts p {
+  margin-bottom: 39px;
 }
 
 .contacts {
@@ -1068,11 +1075,6 @@ nav a:active {
   display: inline-block;
   vertical-align: top;
   width: 560px;
-}
-
-.contacts p {
-  margin: 0;
-  margin-bottom: 30px;
 }
 
 .partners {
@@ -1087,8 +1089,8 @@ nav a:active {
   padding-left: 36px;
   font-size: 16px;
   line-height: 40px;
-  font-family: "gilroyextrabold";
-  font-weight: bold;
+  font-family: "Gilroy";
+  font-weight: 700;
   letter-spacing: 0;
   color: #000000;
 }
@@ -1117,7 +1119,6 @@ nav a:active {
   letter-spacing: 0.2em;
   font-size: 18px;
   line-height: 22px;
-  font-family: "gilroyextrabold";
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -1146,7 +1147,7 @@ nav a:active {
 }
 
 .map {
-  margin-bottom: 60px;
+  margin-bottom: 69px;
   width: 560px;
   height: 222;
   background: url("../img/map.jpg.");
@@ -1167,12 +1168,6 @@ nav a:active {
 
 .map-popup-show {
   display: block;
-}
-
-.map-popup button[name="close"] {
-  position: absolute;
-  top: 20px;
-  left: 900px;
 }
 
 .main-form {
@@ -1200,7 +1195,8 @@ nav a:active {
 .main-form label {
   font-size: 18px;
   line-height: 18px;
-  font-family: "gilroyextrabold";
+  font-family: "Gilroy";
+  font-weight: 700;
   letter-spacing: 0em;
 }
 
@@ -1208,7 +1204,8 @@ nav a:active {
 .main-form textarea {
   font-size: 14px;
   line-height: 18px;
-  font-family: "opensans";
+  font-family: "Open Sans";
+  font-weight: 400;
   letter-spacing: 0em;
   background-color: #e5e5e5;
   opacity: 0.5;
@@ -1233,12 +1230,6 @@ nav a:active {
   padding-top: 12px;
   padding-left: 17px;
 }
-
-/*.main-form input:invalid,
-.main-form textarea:invalid {
-  background-color: #edb5b5;
-  opacity: 0.5;
-}*/
 
 label[for="name"] {
   margin-right: 311px;
@@ -1288,7 +1279,8 @@ textarea[name="letter"] {
   height: 40px;
   font-size: 18px;
   line-height: 22px;
-  font-family: "gilroyextrabold";
+  font-family: "Gilroy";
+  font-weight: 700;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   border: none;
@@ -1314,8 +1306,7 @@ textarea[name="letter"] {
   color: rgba(0, 0, 0, 0.3);
 }
 
-.main-form button[name="close"],
-.map-popup button[name="close"] {
+[name="close"] {
   position: absolute;
   top: 21px;
   right: 22px;
@@ -1326,17 +1317,17 @@ textarea[name="letter"] {
   background-color: #f7e296;
 }
 
-.main-form button[name="close"]:hover {
+[name="close"]:hover {
   background-color: #f0c52e;
 }
 
-.main-form button[name="close"]:active::before,
-.main-form button[name="close"]:active::after {
+[name="close"]:active::before,
+[name="close"]:active::after {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-.main-form button[name="close"]::before,
-.main-form button[name="close"]::after {
+[name="close"]::before,
+[name="close"]::after {
   position: absolute;
   right: 13px;
   content: "";
@@ -1345,11 +1336,11 @@ textarea[name="letter"] {
   background-color: #ffffff;
  }
 
-.main-form button[name="close"]::before {
+[name="close"]::before {
   transform: rotate(45deg);
 }
 
-.main-form button[name="close"]::after {
+[name="close"]::after {
   transform: rotate(-45deg);
 }
 
@@ -1376,14 +1367,14 @@ footer li,
 }
 
 .footer-top {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 footer .index-logo {
   display: inline-block;
   vertical-align: top;
-  margin-top: -8px;
-  margin-left: -4px;
+  margin-top: -3px;
+  margin-left: -2px;
   width: 30%;
 }
 
@@ -1408,14 +1399,14 @@ footer .index-logo {
 }
 
 .footer-top-wrap a {
-  margin-right: -4px;
+  margin-right: -3px;
   margin-left: 36px;
   padding-left: 30px;
-  font-family: "opensanslight";
+  font-family: "Open Sans";
   font-size: 15px;
   line-height: 30px;
   text-decoration: none;
-  font-weight: normal;
+  font-weight: 300;
   color: #ffffff;
   opacity: 0.7;
 }
@@ -1501,20 +1492,21 @@ footer .index-logo {
   color: #ffffff;
 }
 
-.adress {
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 100px;
-  width: 260px;
-  letter-spacing: 0;
-}
-
+.adress,
 .tel {
   display: inline-block;
   vertical-align: top;
   width: 260px;
-  text-align: right;
   letter-spacing: 0;
+  font-weight: 300;
+}
+
+.adress {
+  margin-right: 100px;
+}
+
+.tel {
+  text-align: right;
 }
 
 footer nav {
@@ -1631,8 +1623,8 @@ footer nav {
 .footer-enter-exit a:nth-of-type(2) {
   margin-left: 15px;
   padding-left: 0;
+  opacity: 0.3
 }
-
 
 .inner-align {
   margin-left: 60px;
@@ -1650,8 +1642,8 @@ footer nav {
   font-size: 47px;
   line-height: 56px;
   letter-spacing: 0.01em;
-  font-family: "gilroyextrabold";
-  font-weight: bold;
+  font-family: "Gilroy";
+  font-weight: 700;
   color: #000000;
 }
 
@@ -1680,7 +1672,8 @@ footer nav {
 .breadcrumbs a {
   font-size: 14px;
   line-height: 36px;
-  font-family: "opensanslight";
+  font-family: "Open Sans";
+  font-weight: 300;
   opacity: 0.3;
 }
 
@@ -1768,7 +1761,8 @@ footer nav {
   width: 45%;
   font-size: 14px;
   line-height: 22px;
-  font-family: "gilroylight";
+  font-family: "Gilroy";
+  font-weight: 300;
   box-sizing: border-box;
   border: none;
   opacity: 0.2;
@@ -1789,8 +1783,8 @@ footer nav {
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.2em;
-  font-family: "gilroyextrabold";
-  font-weight: bold;
+  font-family: "Gilroy";
+  font-weight: 700;
   text-transform: uppercase;
   color: #000000;
 }
@@ -1824,7 +1818,8 @@ fieldset h4 {
   padding: 0;
   font-size: 18px;
   line-height: 22px;
-  font-family: "gilroyextrabold";
+  font-family: "Gilroy";
+  font-weight: 700;
 }
 
 .price h4 {
@@ -1846,7 +1841,8 @@ fieldset h4 {
   padding-left: 38px;
   font-size: 14px;
   line-height: 40px;
-  font-family: "opensanslight";
+  font-family: "Open Sans";
+  font-weight: 300;
   color: #000000;
   letter-spacing: 0.01em;
   cursor: pointer;
@@ -1953,8 +1949,8 @@ fieldset h4 {
 .sort-list a {
   font-size: 14px;
   line-height: 18px;
-  font-family: "opensans";
-  font-weight: normal;
+  font-family: "Open Sans";
+  font-weight: 400;
   letter-spacing: 0.01em;
   color: #000000;
   opacity: 0.3;
@@ -1986,7 +1982,8 @@ fieldset h4 {
   border: none;
   font-size: 18px;
   line-height: 22px;
-  font-family: "gilroyextrabold";
+  font-family: "Gilroy";
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.2em;
   background-color: inherit;
@@ -2119,7 +2116,8 @@ fieldset h4 {
   width: 200px;
   font-size: 18px;
   line-height: 22px;
-  font-family: "gilroyextrabold";
+  font-family: "Gilroy";
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.2em;
   background-color: rgba(238, 238, 238, 0);
@@ -2147,8 +2145,8 @@ fieldset h4 {
 .add-item .compare {
   font-size: 13px;
   line-height: 36px;
-  font-family: "opensanslight";
-  font-weight: normal;
+  font-family: "Open Sans";
+  font-weight: 300;
   opacity: 0.5
 }
 
@@ -2167,7 +2165,7 @@ fieldset h4 {
   content: "";
   width: 60px;
   height: 61px;
-  background: url("../img/NEW.png");
+  background: url("../img/new.png");
 }
 
 .box:nth-child(odd) {
@@ -2186,7 +2184,8 @@ fieldset h4 {
   margin-top: 2px;
   font-size: 16px;
   line-height: 19px;
-  font-family: "gilroylight";
+  font-family: "Gilroy";
+  font-weight: 300;
 }
 
 .pagination {
@@ -2224,12 +2223,28 @@ fieldset h4 {
   vertical-align: top;
   margin-right: 6px;
   padding-top: 0;
-  padding-left: 10px;
-  padding-right: 10px;
 }
 
 .pagination li:nth-child(2) {
   margin-right: 3px;
+}
+
+.pagination-num a {
+  padding-left: 10px;
+  padding-right: 10px;
+  opacity: 0.3;
+}
+
+.pagination-num a:hover {
+  opacity: 0.6;
+}
+
+.pagination-num a:active {
+  opacity: 1;
+}
+
+.pagination-num .active {
+  opacity: 1;
 }
 
 .btn-prev {
