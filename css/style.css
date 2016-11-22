@@ -671,6 +671,7 @@ nav a:active {
 .catalog-menu .column-1,
 .catalog-menu .column-3 {
   display: inline-block;
+  vertical-align: top;
   max-width: 200px;
 }
 
