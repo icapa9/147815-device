@@ -3,35 +3,32 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Девайс</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&amp;subset=cyrillic">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <div class="cut">
       <div class="wrapper">
-        <header>
+        <header class="index-header">
           <div class="index-logo">
-            <a href="#">Device</a>
+            <a>Device</a>
           </div>
           <div class="header-top-wrap">
             <div class="search">
-              <span class="loupe"></span>
-              <input type="text" name="search" value="поиск по сайту">
+              <input type="text" name="search" placeholder="Поиск по сайту" required>
               <button type="submit" name="button">Найти</button>
             </div><!--
             --><div class="header-top">
-              <div class="enter-exit">
-                <span class="enter-icon"></span>
+              <div class="header-enter-exit">
                 <a href="#">Войти</a>
               </div>
-              <ul>
+              <ul class="top-icons">
                 <li>
-                  <span class="graph-icon"></span>
-                  <a href="#">Сравнить</a>
+                  <a class="compare-icon-head" href="#">Сравнить</a>
                 </li><!--
                 --><li>
-                  <span class="basket-icon"></span>
-                  <a href="#">Корзина</a>
+                  <a class="basket-icon-head" href="#">Корзина</a>
                 </li>
               </ul>
             </div>
@@ -39,7 +36,7 @@
           <nav>
             <ul class="catalog-nav">
               <li><a href="device-inner.html">Каталог товаров</a>
-                <button type="button" name="open-menu">+</button>
+                <button class="open-menu" type="button" name="open-menu"></button>
                 <div class="catalog-menu">
                   <ul class="column-1">
                     <li><a href="#">Виртуальная реальность</a></li>
@@ -69,7 +66,6 @@
             <input type="radio" name="slide-1" id="radio-2">
             <input type="radio" name="slide-1" id="radio-3">
             <div class="slider-wrap">
-
               <div class="slide-1">
                 <div class="slider-image">
                   <a href="#"><img src="img/slider-1.png" width="384" height="486" alt="image"></a>
@@ -83,20 +79,28 @@
                   <a href="#">Подробнее</a>
                   <div class="features">
                     <ul>
-                      <li><span class="feature-item">8.5 м</span><span class="feature-description">Длина палки</span></li>
-                      <li><span class="feature-item">5 кг</span><span class="feature-description">Вес палки</span></li>
-                      <li><span class="feature-item">Карбон</span><span class="feature-description">Материал</span></li>
+                      <li>
+                        <span class="feature-item">8,5 м</span><!--
+                        --><span class="feature-description">Длина палки</span>
+                      </li><!--
+                      --><li>
+                      <span class="feature-item">5 кг</span><!--
+                      --><span class="feature-description">Вес палки</span>
+                    </li><!--
+                      --><li>
+                      <span class="feature-item">Карбон</span><!--
+                      --><span class="feature-description">Материал</span>
+                    </li>
                     </ul>
                   </div>
                 </div>
               </div>
-
               <div class="slide-2">
                 <div class="slider-image">
                   <a href="#"><img src="img/slider-2.png" width="345" height="485" alt="image"></a>
                 </div><!--
                 --><div class="slider-text">
-                  <h2>Худеем правильно!</h2>
+                  <h2>Худеем<br> правильно!</h2>
                   <p>
                     Мотивирующие фитнесс-браслеты помогут найти в себе силы<br>
                     не пропускать занятия и соблюдать диету.
@@ -109,15 +113,13 @@
                   </div>
                 </div>
               </div>
-
               <div class="slide-3">
                 <div class="slider-image">
                   <a href="#"><img src="img/slider-3.png" width="526" height="334" alt="image"></a>
                 </div><!--
                 --><div class="slider-text">
                   <h2>
-                    Порхает как бабочка,<br>
-                    жалит как пчела!
+                    Порхает как бабочка, жалит как пчела!
                   </h2>
                   <p>
                     Этот обычный, на первый взгляд, квадрокоптер оснащен<br>
@@ -126,16 +128,21 @@
                   <a href="#">Подробнее</a>
                   <div class="features">
                     <ul>
-                      <li><span class="feature-item">800 м</span><span class="feature-description">Дальность полета</span></li>
-                      <li><span class="feature-item">50 м</span><span class="feature-description">Радиус поражения</span></li>
+                      <li>
+                        <span class="feature-item">800 м</span><!--
+                        --><span class="feature-description">Дальность полета</span>
+                      </li><!--
+                      --><li><span class="feature-item">50 м</span><!--
+                      --><span class="feature-description">Радиус поражения</span>
+                    </li>
                     </ul>
                   </div>
                 </div>
               </div>
               <div class="slider-toggle">
-                <label for="radio-1">slide-1</label>
-                <label for="radio-2">slide-2</label>
-                <label for="radio-3">slide-3</label>
+                <label class="active" for="radio-1"></label><!--
+                --><label for="radio-2"></label><!--
+                --><label for="radio-3"></label>
               </div>
             </div>
           </section>
@@ -143,49 +150,37 @@
             <ul class="catalog-list">
               <li>
                 <a href="#">
-                  <div class="catalog-item virt-item">
-
-                  </div>
+                  <div class="catalog-item virt-item"></div>
                   <span>Виртуальная реальность</span>
                 </a>
               </li><!--
               --><li>
                 <a href="#">
-                  <div class="catalog-item self-item">
-
-                  </div>
-                  <span>Моноподы для селфи</span>
+                  <div class="catalog-item self-item"></div>
+                  <span>Моноподы<br> для селфи</span>
                 </a>
               </li><!--
               --><li>
                 <a href="#">
-                  <div class="catalog-item action-item">
-
-                  </div>
+                  <div class="catalog-item action-item"></div>
                   <span>Экшн-камеры</span>
                 </a>
               </li><!--
               --><li>
                 <a href="#">
-                  <div class="catalog-item fitness-item">
-
-                  </div>
+                  <div class="catalog-item fitness-item"></div>
                   <span>Фитнесс браслеты</span>
                 </a>
               </li><!--
               --><li>
                 <a href="#">
-                  <div class="catalog-item watch-item">
-
-                  </div>
+                  <div class="catalog-item watch-item"></div>
                   <span>Умные часы</span>
                 </a>
               </li><!--
               --><li>
                 <a href="#">
-                  <div class="catalog-item copter-item">
-
-                  </div>
+                  <div class="catalog-item copter-item"></div>
                   <span>Квадрокоптеры</span>
                 </a>
               </li>
@@ -197,9 +192,9 @@
             <input type="radio" name="service-text" id="credit">
             <div class="service-wrap">
               <ul>
-                <li><label for="delivery">Доставка</label></li>
-                <li><label for="warranty">Гарантия</label></li>
-                <li><label for="credit">Кредит</label></li>
+                <li><label for="delivery">Доставка</label></li><!--
+                --><li><label for="warranty">Гарантия</label></li><!--
+                --><li><label for="credit">Кредит</label></li>
               </ul><!--
               --><div class="service-text">
                 <p class="delivery-text">
@@ -211,13 +206,13 @@
                 <p class="warranty-text">
                   <span>Гарантия</span>
                   Если из-за возгорания купленного у нас товара у вас сгорит
-                  дом - не переживайте, мы вададим вам новый.
+                  дом &mdash; не переживайте, мы вададим вам новый.<br>
                   Товар, не дом, конечно же.
                 </p>
                 <p class="credit-text">
                   <span>Кредит</span>
                   Залезть в долговую яму стало проще! Кредитные
-                  консультанты подберут для вас наиболее выгодные
+                  консультанты подберут для вас наиболее выгодные<br>
                   условия кредита. Выгодные для нашего банка, разумеется.
                 </p>
               </div>
@@ -225,10 +220,10 @@
           </section>
           <section class="brands-logo">
             <ul>
-              <li><img src="img/logo-1.png" width="260" height="100" alt="logo" /></li><!--
-              --><li><img src="img/logo-2.png" width="260" height="100" alt="logo" /></li><!--
-              --><li><img src="img/logo-3.png" width="260" height="100" alt="logo" /></li><!--
-              --><li><img src="img/logo-4.png" width="260" height="100" alt="logo" /></li>
+              <li></li><!--
+              --><li></li><!--
+              --><li></li><!--
+              --><li></li>
             </ul>
           </section>
           <section class="info-about-us">
@@ -239,63 +234,60 @@
                 который есть в каждом из нас.
               </p>
               <p>
-                Мы может доставить ваш товар в самые отдаленные точки
-                России! Device работает со многими транспортными компаниями:
+                Мы можем доставить ваш товар в самые отдаленные точки
+                России! Техномарт работает со многими транспортными компаниями:
               </p>
               <ul class="partners">
-                <li>Деловые линии</li>
-                <li>Автотрейдинг</li>
-                <li>ЖелДорЭкспедиция</li>
+                <li>Деловые Линии</li><!--
+                --><li>Автотрейдинг</li><!--
+                --><li>ЖелДорЭкспедиция</li>
               </ul>
               <a href="#">Подробнее о нас</a>
             </div><!--
             --><div class="contacts">
               <h2>Контакты</h2>
               <p>
-                Вы можете забрать товар сами, заехав наш офис. Заодно, вы сможете
+                Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете
                 проверить работоспособность покупки. Всякое бывает.
               </p>
               <div class="map">
-                <a href="#"><img src="img/map.jpg" width="560" height="222" alt="map" /></a>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.1125488779953!2d37.52742931624443!3d55.68703098053586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54cf65f5c8955%3A0x694710ccd55501e!2z0YPQuy4g0KHRgtGA0L7QuNGC0LXQu9C10LksIDE1LCDQnNC-0YHQutCy0LAsIDExOTMxMQ!5e0!3m2!1sru!2sru!4v1479603006990" width="560" height="222" frameborder="0" style="border:0" allowfullscreen></iframe>
               </div>
               <div class="map-popup">
-                <img src="img/map-big.jpg" width="960" height="559" alt="map" />
-                <button type="button" name="close">X</button>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.1125488779953!2d37.52742931624443!3d55.68703098053586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54cf65f5c8955%3A0x694710ccd55501e!2z0YPQuy4g0KHRgtGA0L7QuNGC0LXQu9C10LksIDE1LCDQnNC-0YHQutCy0LAsIDExOTMxMQ!5e0!3m2!1sru!2sru!4v1479615923295" width="960" height="559" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <button type="button" name="close"></button>
               </div>
               <div class="main-form">
                 <form class="contact-form" action="https://echo.htmlacademy.ru" method="post">
                   <label for="name">Ваше имя:</label><!--
                   --><label for="email">Ваш e-mail:</label>
-                  <input type="text" name="name" value="Представтесь, пожалуйста" id="name"><!--
-                  --><input type="email" name="email" value="Для отправки ответа" id="email">
+                  <input type="text" name="name" placeholder="Представьтесь, пожалуйста" id="name" required><!--
+                  --><input type="email" name="email" placeholder="Для отправки ответа" id="email" >
                   <label for="letter">Текст письма:</label>
-                  <textarea name="letter" rows="7" cols="92" id="letter">В свободной форме</textarea>
+                  <textarea name="letter" placeholder="В свободной форме" id="letter" ></textarea>
                   <button type="submit">Отправить</button>
                 </form>
-                <button type="button" name="close">X</button>
+                <button class="form-close" type="button" name="close"></button>
               </div>
-              <a href="#">Напишите нам</a>
+              <a class="form-link" href="#">Напишите нам</a>
             </div>
           </section>
         </main>
         <footer>
           <div class="footer-top">
             <div class="index-logo">
-              <a href="#">Device</a>
+              <a class="footer-logo" href="#">Device</a>
             </div><!--
             --><div class="footer-top-wrap">
-              <div class="enter-exit">
-                <span class="enter-icon"></span>
+              <div class="footer-enter-exit">
                 <a href="#">Войти</a>
               </div><!--
-              --><ul>
-                <li>
-                  <span class="graph-icon"></span>
-                  <a href="#">Сравнить</a>
+              --><ul class="footer-icons">
+              <li>
+                  <a class="compare-icon-footer" href="#">Сравнить</a>
                 </li><!--
                 --><li>
-                  <span class="basket-icon"></span>
-                  <a href="#">Корзина</a>
+                  <a class="basket-icon-footer" href="#">Корзина</a>
                 </li>
               </ul>
             </div>
@@ -312,21 +304,23 @@
               </ul>
             </nav><!--
             --><div class="tel">
-              Тел.: +7(495)495-95-95
+              Тел.: +7 (495) 495-95-95
             </div>
           </div>
           <div class="footer-bottom">
             <div class="social">
               <ul>
-                <li><a class="btn" href="#">Facebook</a></li>
-                <li><a class="btn" href="#">Instagram</a></li>
-                <li><a class="btn" href="#">Twitter</a></li>
+                <li><a class="social-fb" href="#"></a></li>
+                <li><a class="social-ins" href="#"></a></li>
+                <li><a class="social-tw" href="#"></a></li>
               </ul>
             </div>
-            <a class="made-by" href="#"><span class="made-by-logo">logo</span></a>
+            <a class="made-by-logo" href="#"></a>
           </div>
         </footer>
       </div>
     </div>
+    <script src="js/script.js">
+    </script>
   </body>
 </html>
