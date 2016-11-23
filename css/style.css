@@ -1992,7 +1992,7 @@ fieldset h4 {
 
 .inner-form button {
   position: relative;
-  z-index: -1;
+  z-index: 6;
   margin-left: -2px;
   width: 200px;
   height: 40px;
