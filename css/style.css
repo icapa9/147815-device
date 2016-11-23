@@ -19,27 +19,27 @@
 body {
   font-size: 15px;
   line-height: 30px;
-  color: #464646;
   font-family: "Open Sans", "Arial", sans-serif;
   font-weight: 400;
   letter-spacing: 0.01em;
+  color: #464646;
 }
 
 h2 {
   font-size: 47px;
   line-height: 56px;
-  color: #000000;
   font-family: "Gilroy", "Arial", sans-serif;
   font-weight: 700;
+  color: #000000;
 }
 
 a {
   font-size: 18px;
   line-height: 22px;
-  color: #000000;
   font-family: "Gilroy", "Arial", sans-serif;
   font-weight: 700;
   text-decoration: none;
+  color: #000000;
 }
 
 button:active,
@@ -61,18 +61,18 @@ button {
 }
 
 .wrapper {
-  width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+  width: 1200px;
   box-sizing: border-box;
 }
 
 header {
   margin-top: 40px;
   padding-top: 22px;
-  padding-left: 60px;
   padding-right: 60px;
   padding-bottom: 47px;
+  padding-left: 60px;
   background-color: #f7e184;
   box-sizing: border-box;
 }
@@ -87,18 +87,18 @@ header {
 }
 
 .header-top-wrap a {
-  font-family: "Open Sans";
   font-size: 15px;
   line-height: 36px;
-  letter-spacing: 0.01em;
+  font-family: "Open Sans";
   font-weight: 300;
+  letter-spacing: 0.01em;
   text-decoration: none;
 }
 
 header .index-logo {
   margin-top: -46px;
-  margin-left: -3px;
   margin-bottom: 15px;
+  margin-left: -3px;
   cursor: default;
 }
 
@@ -130,12 +130,12 @@ header .index-logo {
 
 .search input {
   padding-left: 40px;
-  baseline: top;
   line-height: 36px;
   color: #000000;
-  border: none;
   background-color: inherit;
+  border: none;
   opacity: 0.3;
+  baseline: top;
 }
 
 .search input:hover {
@@ -149,23 +149,23 @@ header .index-logo {
 
 .search::before {
   position: absolute;
+  content: "";
   top: 11px;
   left: 3px;
-  content: "";
   width: 16px;
   height: 16px;
   background: url("../img/icons-sprite.png") no-repeat -5px -89px;
 }
 
 .search button {
-  display: none;
   position: absolute;
   top: -10px;
   right: 41px;
+  display: none;
   width: 85px;
   height: 50px;
-  border: 2px solid #000000;
   background-color: inherit;
+  border: 2px solid #000000;
 }
 
 .search button:hover {
@@ -207,9 +207,9 @@ header .index-logo {
 
 .header-enter-exit a::before {
   position: absolute;
+  content: "";
   top: 12px;
   left: 20px;
-  content: "";
   width: 13px;
   height: 12px;
   background: url("../img/icons-sprite.png") no-repeat -80px -89px;
@@ -265,9 +265,9 @@ header li {
 
 .top-icons .compare-icon-head::before {
   position: absolute;
+  content: "";
   top: 14px;
   left: 2px;
-  content: "";
   width: 10px;
   height: 10px;
   background: url("../img/icons-sprite.png") no-repeat -71px -5px;
@@ -275,9 +275,9 @@ header li {
 
 .top-icons .basket-icon-head::before {
   position: absolute;
+  content: "";
   top: 12px;
   left: 0px;
-  content: "";
   width: 12px;
   height: 12px;
   background: url("../img/icons-sprite.png") no-repeat -5px -5px;
@@ -321,8 +321,8 @@ header li {
   margin-left: 90px;
   width: 384px;
   height: 486px;
-  text-align: left;
   line-height: 0;
+  text-align: left;
 }
 
 .slide-2 .slider-image {
@@ -362,17 +362,17 @@ header li {
   vertical-align: top;
   margin-top: 80px;
   margin-left: 124px;
-  text-align: left;
   width: 495px;
   font-weight: 300;
+  text-align: left;
   box-sizing: border-box;
 }
 
 .slider-text::before {
   position: absolute;
+  content: "";
   top: -43px;
   left: 2px;
-  content: "";
   width: 100px;
   height: 7px;
   background-color: #ffffff;
@@ -380,9 +380,9 @@ header li {
 
 .slide-1 .slider-text::after {
   position: absolute;
+  content: "";
   top: -71px;
   right: -7px;
-  content: "";
   width: 166px;
   height: 131px;
   background: url("../img/slider-sprite.png") no-repeat -5px -5px;
@@ -390,9 +390,9 @@ header li {
 
 .slide-2 .slider-text::after {
   position: absolute;
+  content: "";
   top: -71px;
   right: -13px;
-  content: "";
   width: 198px;
   height: 131px;
   background: url("../img/slider-sprite.png") no-repeat -5px -146px;
@@ -400,9 +400,9 @@ header li {
 
 .slide-3 .slider-text::after {
   position: absolute;
+  content: "";
   top: -71px;
   right: -4px;
-  content: "";
   width: 201px;
   height: 131px;
   background: url("../img/slider-sprite.png") no-repeat -181px -5px;
@@ -433,9 +433,9 @@ header li {
   padding-left: 2px;
   font-size: 36px;
   line-height: 47px;
-  text-align: left;
   font-family: "Gilroy";
   font-weight: 300;
+  text-align: left;
   color: #000000;
 }
 
@@ -449,8 +449,8 @@ header li {
 }
 
 .features li {
-  min-width: 100px;
   margin-right: 60px;
+  min-width: 100px;
 }
 
 .features li:nth-of-type(2) {
@@ -502,10 +502,10 @@ header li {
 
 .slider-text a::before {
   position: absolute;
+  content: "";
   z-index: -1;
   top: 16px;
   left: 0px;
-  content: "";
   width: 220px;
   height: 8px;
   background-color: #f0c52e;
@@ -517,8 +517,8 @@ header li {
 
 .slider-toggle {
   position: absolute;
-  bottom: 140px;
   right: 84px;
+  bottom: 140px;
 }
 
 .slider-toggle label {
@@ -527,9 +527,9 @@ header li {
   margin-right: 23px;
   width: 4px;
   height: 4px;
+  background: #ffffff;
   border: 3px solid #000000;
   border-radius: 50%;
-  background: #ffffff;
   opacity: 0.3;
   cursor: pointer;
 }
@@ -551,9 +551,9 @@ header li {
 }
 
 nav a {
+  letter-spacing: 0.2em;
   text-transform: uppercase;
   text-decoration: none;
-  letter-spacing: 0.2em;
 }
 
 nav a:hover {
@@ -577,15 +577,15 @@ nav a:active {
   top: 1px;
   width: 16px;
   height: 16px;
-  border: none;
   background-color: inherit;
+  border: none;
 }
 
 .catalog-nav button::before {
   position: absolute;
-  left: 0;
-  top: 7px;
   content: "";
+  top: 7px;
+  left: 0;
   width: 16px;
   height: 2px;
   background-color: #000000;
@@ -594,9 +594,9 @@ nav a:active {
 
 .catalog-nav button::after {
   position: absolute;
+  content: "";
   top: 0;
   left: 7px;
-  content: "";
   width: 2px;
   height: 16px;
   background-color: #000000;
@@ -615,9 +615,9 @@ nav a:active {
 
 .catalog-nav,
 .extra-nav {
-  width: 50%;
   margin: 0;
   padding: 0;
+  width: 50%;
   list-style-type: none;
 }
 
@@ -644,13 +644,13 @@ nav a:active {
 }
 
 .catalog-menu {
-  display: none;
   position: absolute;
   z-index: 100;
+  display: none;
   left: -60px;
-  padding-left: 60px;
   margin-top: 18px;
   padding-bottom: 34px;
+  padding-left: 60px;
   width: 1160px;
   background-color: #f7e184;
   box-sizing: border-box;
@@ -665,8 +665,8 @@ nav a:active {
   line-height: 36px;
   font-family: "Open Sans";
   font-weight: 300;
-  text-transform: none;
   letter-spacing: 0.01em;
+  text-transform: none;
 }
 
 .catalog-menu .column-1,
@@ -820,22 +820,22 @@ nav a:active {
 
 .service::before {
   position: absolute;
+  content: "";
   z-index: -10;
   top: 96px;
-  content: "";
   display: block;
-  height: 288px;
-  width: 9999px;
   margin: 0 -9999px;
   padding: 0 9999px;
+  width: 9999px;
+  height: 288px;
   background-color: #e5e5e5;
 }
 
 .delivery-text::after {
   position: absolute;
+  content: "";
   top: 81px;
   right: 66px;
-  content: "";
   width: 136px;
   height: 164px;
   background: url("../img/service-slider.png") no-repeat -171px -5px;
@@ -843,9 +843,9 @@ nav a:active {
 
 .warranty-text::after {
   position: absolute;
+  content: "";
   top: 56px;
   right: 46px;
-  content: "";
   width: 171px;
   height: 195px;
   background: url("../img/service-slider.png") no-repeat -171px -179px;
@@ -853,9 +853,9 @@ nav a:active {
 
 .credit-text::after {
   position: absolute;
+  content: "";
   top: 55px;
   right: 70px;
-  content: "";
   width: 156px;
   height: 188px;
   background: url("../img/service-slider.png") no-repeat -5px -5px;
@@ -878,10 +878,10 @@ nav a:active {
 
 .service-wrap::after {
   position: absolute;
+  content: "";
   display: block;
   top: -4px;
   left: 277px;
-  content: "";
   width: 7px;
   height: 319px;
   background: black;
@@ -892,12 +892,12 @@ nav a:active {
   margin-bottom: 25px;
   padding-right: 106px;
   width: 280px;
-  font-family: "Gilroy";
   font-size: 18px;
   line-height: 22px;
+  font-family: "Gilroy";
+  font-weight: 700;
   letter-spacing: 3px;
   color: #000000;
-  font-weight: 700;
   text-align: center;
   text-transform: uppercase;
   box-sizing: border-box;
@@ -906,10 +906,10 @@ nav a:active {
 
 .service li::before {
   position: absolute;
+  content: "";
   z-index: -1;
   top: 15px;
   left: 0px;
-  content: "";
   width: 160px;
   height: 8px;
   background-color: #f0c52e;
@@ -919,13 +919,13 @@ nav a:active {
   display: inline-block;
   vertical-align: top;
   margin-left: -13px;
-  padding-left: 13px;
   padding-top: 9px;
   padding-bottom: 9px;
+  padding-left: 13px;
   width: 160px;
-  cursor: pointer;
   letter-spacing: 0.2em;
   box-sizing: border-box;
+  cursor: pointer;
 }
 
 .service label:hover {
@@ -960,11 +960,11 @@ nav a:active {
   display: block;
   margin-top: -11px;
   margin-bottom: 26px;
-  font-family: "Gilroy";
   font-size: 47px;
   line-height: 57px;
-  letter-spacing: 0.01em;
+  font-family: "Gilroy";
   font-weight: 700;
+  letter-spacing: 0.01em;
   color: #000000;
 }
 
@@ -1027,8 +1027,8 @@ nav a:active {
 }
 
 .info-about-us {
-  padding-top: 45px;
   margin-bottom: 82px;
+  padding-top: 45px;
 }
 
 .info-about-us h2 {
@@ -1049,8 +1049,8 @@ nav a:active {
 .about-us::before,
 .contacts::before {
   position: absolute;
-  top: -48px;
   content: "";
+  top: -48px;
   width: 80px;
   height: 7px;
   background-color: #000000;
@@ -1099,14 +1099,14 @@ nav a:active {
 
 .partners li::before {
   position: absolute;
+  content: "";
   top: 15px;
   left: 0;
-  content: "";
   width: 4px;
   height: 4px;
+  background: #ffffff;
   border: 3px solid #b2b2b2;
   border-radius: 50%;
-  background: #ffffff;
 }
 
 .about-us a,
@@ -1117,10 +1117,10 @@ nav a:active {
   padding-top: 9px;
   padding-bottom: 9px;
   min-width: 260px;
-  text-align: center;
-  letter-spacing: 0.2em;
   font-size: 18px;
   line-height: 22px;
+  letter-spacing: 0.2em;
+  text-align: center;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -1128,10 +1128,10 @@ nav a:active {
 .about-us > a::before,
 .contacts > a::before {
   position: absolute;
+  content: "";
   z-index: -1;
   top: 16px;
   left: 0px;
-  content: "";
   width: 260px;
   height: 8px;
   background-color: #f0c52e;
@@ -1161,11 +1161,11 @@ nav a:active {
 }
 
 .map-popup {
-  display: none;
   position: fixed;
   z-index: 1000;
   top: 50%;
   left: 50%;
+  display: none;
   margin-top: -280px;
   margin-left: -480px;
   width: 960px;
@@ -1179,18 +1179,18 @@ nav a:active {
 }
 
 .main-form {
-  display: none;
   position: fixed;
   z-index: 1000;
   top: 50%;
   left: 50%;
+  display: none;
   margin-top: -276px;
   margin-left: -480px;
-  width: 960px;
-  height: 553px;
   padding: 100px;
   padding-top: 90px;
   padding-bottom: 90px;
+  width: 960px;
+  height: 553px;
   background-color: #ffffff;
   box-shadow: 0px 20px 50px 10px rgba(0, 0, 0, 0.3);
   box-sizing: border-box;
@@ -1241,8 +1241,8 @@ nav a:active {
 .main-form input:focus,
 .main-form textarea:focus {
   padding-left: 17px;
-  border: 3px solid #e5e5e5;
   background-color: #ffffff;
+  border: 3px solid #e5e5e5;
   opacity: 1;
 }
 
@@ -1263,10 +1263,10 @@ label[for="letter"] {
 
 input[name="name"] {
   margin-top: 4px;
-  margin-bottom: 36px;
   margin-right: 40px;
-  padding-left: 20px;
+  margin-bottom: 36px;
   padding-right: 20px;
+  padding-left: 20px;
   width: 360px;
   height: 50px;
   border: none;
@@ -1274,20 +1274,20 @@ input[name="name"] {
 }
 
 input[name="email"] {
-  width: 360px;
-  height: 50px;
   padding-left: 20px;
   padding-right: 20px;
+  width: 360px;
+  height: 50px;
   border: none;
   box-sizing: border-box;
 }
 
 textarea[name="letter"] {
   margin-bottom: 32px;
-  width: 760px;
-  height: 156px;
   padding: 20px;
   padding-top: 15px;
+  width: 760px;
+  height: 156px;
   border: none;
   box-sizing: border-box;
 }
@@ -1303,16 +1303,16 @@ textarea[name="letter"] {
   font-weight: 700;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  border: none;
   background-color: inherit;
+  border: none;
 }
 
 .contact-form button::before {
   position: absolute;
+  content: "";
   z-index: -20;
   top: 16px;
   left: 0px;
-  content: "";
   width: 200px;
   height: 8px;
   background-color: #f0c52e;
@@ -1332,9 +1332,9 @@ textarea[name="letter"] {
   right: 22px;
   width: 55px;
   height: 55px;
-  border-radius: 50%;
-  border: none;
   background-color: #f7e296;
+  border: none;
+  border-radius: 50%;
 }
 
 [name="close"]:hover {
@@ -1349,8 +1349,8 @@ textarea[name="letter"] {
 [name="close"]::before,
 [name="close"]::after {
   position: absolute;
-  right: 13px;
   content: "";
+  right: 13px;
   width: 30px;
   height: 2px;
   background-color: #ffffff;
@@ -1422,11 +1422,11 @@ footer .index-logo {
   margin-right: -3px;
   margin-left: 36px;
   padding-left: 30px;
-  font-family: "Open Sans";
   font-size: 15px;
   line-height: 30px;
-  text-decoration: none;
+  font-family: "Open Sans";
   font-weight: 300;
+  text-decoration: none;
   color: #ffffff;
   opacity: 0.7;
 }
@@ -1465,9 +1465,9 @@ footer .index-logo {
 
 .footer-icons .compare-icon-footer::before {
   position: absolute;
+  content: "";
   top: 11px;
   left: 46px;
-  content: "";
   width: 10px;
   height: 10px;
   background: url("../img/icons-sprite.png") no-repeat -71px -25px;
@@ -1475,9 +1475,9 @@ footer .index-logo {
 
 .footer-icons .compare-icon-footer:hover::before {
   position: absolute;
+  content: "";
   top: 11px;
   left: 46px;
-  content: "";
   width: 10px;
   height: 10px;
   background: url("../img/icons-sprite.png") no-repeat -5px -45px;
@@ -1485,9 +1485,9 @@ footer .index-logo {
 
 .footer-icons .basket-icon-footer::before {
   position: absolute;
+  content: "";
   top: 9px;
   left: 176px;
-  content: "";
   width: 12px;
   height: 12px;
   background: url("../img/icons-sprite.png") no-repeat -27px -5px;
@@ -1495,9 +1495,9 @@ footer .index-logo {
 
 .footer-icons .basket-icon-footer:hover::before {
   position: absolute;
+  content: "";
   top: 9px;
   left: 176px;
-  content: "";
   width: 12px;
   height: 12px;
   background: url("../img/icons-sprite.png") no-repeat -49px -5px;
@@ -1517,8 +1517,8 @@ footer .index-logo {
   display: inline-block;
   vertical-align: top;
   width: 260px;
-  letter-spacing: 0;
   font-weight: 300;
+  letter-spacing: 0;
 }
 
 .adress {
@@ -1559,8 +1559,8 @@ footer nav {
 
 .footer-nav a {
   display: block;
-  color: #ffffff;
   letter-spacing: 0.2em;
+  color: #ffffff;
 }
 
 .footer-bottom {
@@ -1569,8 +1569,8 @@ footer nav {
 
 .footer-bottom::after {
   position: absolute;
-  top: 16px;
   content: "";
+  top: 16px;
   width: 80px;
   height: 7px;
   background-color: #f7e184;
@@ -1661,9 +1661,9 @@ footer nav {
   margin-bottom: 14px;
   font-size: 47px;
   line-height: 56px;
-  letter-spacing: 0.01em;
   font-family: "Gilroy";
   font-weight: 700;
+  letter-spacing: 0.01em;
   color: #000000;
 }
 
@@ -1681,9 +1681,9 @@ footer nav {
 
 .breadcrumbs li:not(:last-child)::after {
   position: absolute;
+  content: "";
   top: 15px;
   right: -19px;
-  content: "";
   width: 4px;
   height: 7px;
   background: url("../img/icons-sprite.png") no-repeat -91px -5px;
@@ -1709,10 +1709,10 @@ footer nav {
   position: relative;
   z-index: 5;
   float: left;
-  padding-left: 9999px;
+  margin-bottom: -9999px;
   margin-left: -9999px;
   padding-bottom: 9999px;
-  margin-bottom: -9999px;
+  padding-left: 9999px;
   width: 268px;
   background-color: #eeeeee;
 }
@@ -1750,8 +1750,8 @@ footer nav {
   left: -2px;
   width: 10px;
   height: 10px;
-  border: 2px solid #000000;
   background-color: #eeeeee;
+  border: 2px solid #000000;
   border-radius: 50%;
   cursor: pointer;
 }
@@ -1762,10 +1762,10 @@ footer nav {
   left: -2px;
   width: 10px;
   height: 10px;
-  border: 2px solid #ffffff;
   background-color: #7eae29;
-  box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.75);
+  border: 2px solid #ffffff;
   border-radius: 50%;
+  box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.75);
   cursor: pointer;
 }
 
@@ -1783,14 +1783,14 @@ footer nav {
   line-height: 22px;
   font-family: "Gilroy";
   font-weight: 300;
-  box-sizing: border-box;
   border: none;
   opacity: 0.2;
+  box-sizing: border-box;
 }
 
 .price-controls input:focus {
-  border: none;
   background-color: inherit;
+  border: none;
   opacity: 1;
 }
 
@@ -1799,14 +1799,14 @@ footer nav {
   padding-top: 25px;
   padding-bottom: 25px;
   height: 70px;
-  box-sizing: border-box;
   font-size: 16px;
   line-height: 19px;
-  letter-spacing: 0.2em;
   font-family: "Gilroy";
   font-weight: 700;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
   color: #000000;
+  box-sizing: border-box;
 }
 
 .filter > h4 {
@@ -1863,8 +1863,8 @@ fieldset h4 {
   line-height: 40px;
   font-family: "Open Sans";
   font-weight: 300;
-  color: #000000;
   letter-spacing: 0.01em;
+  color: #000000;
   cursor: pointer;
 }
 
@@ -1874,9 +1874,9 @@ fieldset h4 {
 
 .color label::before {
   position: absolute;
+  content: "";
   top: 8px;
   left: -2px;
-  content: "";
   width: 23px;
   height: 23px;
   background-color: #dbdbdb;
@@ -1896,14 +1896,14 @@ fieldset h4 {
 
 .bluetooth label:before {
   position: absolute;
+  content: "";
   top: 8px;
   left: -2px;
-  content: "";
   width: 19px;
   height: 19px;
-  border-radius: 50%;
-  border: 2px solid #c6c6c6;
   background-color: #eeeeee;
+  border: 2px solid #c6c6c6;
+  border-radius: 50%;
 }
 
 .bluetooth label:hover::before {
@@ -1916,14 +1916,14 @@ fieldset h4 {
 
 .bluetooth input:checked + label::after {
   position: absolute;
+  content: "";
   top: 15px;
   left: 5px;
-  content: "";
   width: 5px;
   height: 5px;
-  border-radius: 50%;
-  border: 2px solid #000000;
   background-color: #eeeeee;
+  border: 2px solid #000000;
+  border-radius: 50%;
 }
 
 .bluetooth label:last-of-type {
@@ -1937,9 +1937,9 @@ fieldset h4 {
 }
 
 .sort {
-  padding-right: 9999px;
   margin-right: -9999px;
   margin-left: -2px;
+  padding-right: 9999px;
   background-color: #eeeeee;
 }
 
@@ -1947,8 +1947,8 @@ fieldset h4 {
   display: inline-block;
   vertical-align: top;
   margin: 0;
-  margin-left: 74px;
   margin-right: 7px;
+  margin-left: 74px;
   padding-top: 25px;
   padding-bottom: 25px;
   height: 70px;
@@ -1999,22 +1999,22 @@ fieldset h4 {
   margin-left: -2px;
   width: 200px;
   height: 40px;
-  border: none;
   font-size: 18px;
   line-height: 22px;
   font-family: "Gilroy";
   font-weight: 700;
-  text-transform: uppercase;
   letter-spacing: 0.2em;
+  text-transform: uppercase;
   background-color: inherit;
+  border: none;
 }
 
 .inner-form button::before {
   position: absolute;
+  content: "";
   z-index: -1;
   top: 16px;
   left: 0;
-  content: "";
   width: 200px;
   height: 8px;
   background-color: #f0c52e;
@@ -2037,8 +2037,8 @@ fieldset h4 {
 
 .triangles li {
   margin-top: 10px;
-  padding: 0;
   margin-left: 26px;
+  padding: 0;
   line-height: 9px;
   opacity: 0.2;
 }
@@ -2062,8 +2062,8 @@ fieldset h4 {
 .triangles button {
   width: 17px;
   height: 9px;
-  border: none;
   background-color: inherit;
+  border: none;
 }
 
 .triangles .up {
@@ -2080,10 +2080,10 @@ fieldset h4 {
 
 .article-wrap {
   padding-top: 69px;
-  padding-left: 70px;
   padding-bottom: 73px;
+  padding-left: 70px;
+  background-color: #ffffff;
   box-sizing: border-box;
-  background-color: white;
 }
 
 .box {
@@ -2108,11 +2108,11 @@ fieldset h4 {
 }
 
 .add-item {
-  display: none;
   position: absolute;
   z-index: 10;
   top: 0;
   left: 0;
+  display: none;
   padding-top: 168px;
   width: 360px;
   height: 380px;
@@ -2138,17 +2138,17 @@ fieldset h4 {
   line-height: 22px;
   font-family: "Gilroy";
   font-weight: 700;
-  text-transform: uppercase;
   letter-spacing: 0.2em;
+  text-transform: uppercase;
   background-color: rgba(238, 238, 238, 0);
 }
 
 .add-item .btn::before {
   position: absolute;
+  content: "";
   top: 18px;
   left: 0px;
   z-index: -1;
-  content: "";
   width: 200px;
   height: 8px;
   background-color: #f0c52e;
@@ -2180,9 +2180,9 @@ fieldset h4 {
 
 .sticker-new::before {
   position: absolute;
+  content: "";
   top: 28px;
   right: 27px;
-  content: "";
   width: 60px;
   height: 61px;
   background: url("../img/new.png");
@@ -2250,8 +2250,8 @@ fieldset h4 {
 }
 
 .pagination-num a {
-  padding-left: 10px;
   padding-right: 10px;
+  padding-left: 10px;
   opacity: 0.3;
 }
 
@@ -2270,9 +2270,9 @@ fieldset h4 {
 .btn-prev {
   display: inline-block;
   vertical-align: top;
+  margin-right: 202px;
   padding-top: 27px;
   padding-bottom: 27px;
-  margin-right: 202px;
   padding-left: 30px;
   width: 126px;
   text-align: left;
@@ -2283,8 +2283,8 @@ fieldset h4 {
   display: inline-block;
   vertical-align: top;
   padding-top: 27px;
-  padding-bottom: 27px;
   padding-right: 25px;
+  padding-bottom: 27px;
   width: 137px;
   text-align: right;
   box-sizing: border-box;
