@@ -99,6 +99,7 @@ header .index-logo {
   margin-top: -46px;
   margin-left: -3px;
   margin-bottom: 15px;
+  cursor: default;
 }
 
 .index-logo a {
@@ -1150,8 +1151,13 @@ nav a:active {
 .map {
   margin-bottom: 69px;
   width: 560px;
-  height: 222;
-  background: url("../img/map.jpg.");
+  height: 222px;
+  background-color: #e9e9e9;
+}
+
+.map a {
+  display: block;
+  padding: 0;
 }
 
 .map-popup {
@@ -1165,6 +1171,7 @@ nav a:active {
   width: 960px;
   height: 559px;
   background: url("../img/map-big.jpg");
+  box-shadow: 0px 20px 50px 10px rgba(0, 0, 0, 0.3);
 }
 
 .map-popup-show {
@@ -1185,12 +1192,24 @@ nav a:active {
   padding-top: 90px;
   padding-bottom: 90px;
   background-color: #ffffff;
-  box-shadow: 0px 10px 50px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 20px 50px 10px rgba(0, 0, 0, 0.3);
   box-sizing: border-box;
 }
 
 .main-form-show {
   display: block;
+  animation: rotate 0.3s;
+}
+
+@keyframes rotate {
+  0% {transform: rotateZ(-50deg);}
+  10% {transform: rotateZ(-40deg);}
+  20% {transform: rotateZ(-30deg);}
+  40% {transform: rotateZ(-20deg);}
+  60% {transform: rotateZ(-10deg);}
+  80% {transform: rotateZ(-5deg);}
+  90% {transform: rotateZ(-2deg);}
+  100% {transform: rotateZ(0deg);}
 }
 
 .main-form label {
