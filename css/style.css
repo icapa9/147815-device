@@ -130,9 +130,10 @@ header .index-logo {
 
 .search input {
   padding-left: 40px;
+  height: 36px;
   line-height: 36px;
   color: #000000;
-  background-color: inherit;
+  background-color: transparent;
   border: none;
   opacity: 0.3;
   baseline: top;
@@ -164,7 +165,7 @@ header .index-logo {
   display: none;
   width: 85px;
   height: 50px;
-  background-color: inherit;
+  background-color: transparent;
   border: 2px solid #000000;
 }
 
@@ -577,7 +578,7 @@ nav a:active {
   top: 1px;
   width: 16px;
   height: 16px;
-  background-color: inherit;
+  background-color: transparent;
   border: none;
 }
 
@@ -802,14 +803,8 @@ nav a:active {
   display: none;
 }
 
-#delivery:checked ~ .service-wrap .delivery-text {
-  display: block;
-}
-
-#warranty:checked ~ .service-wrap .warranty-text {
-  display: block;
-}
-
+#delivery:checked ~ .service-wrap .delivery-text,
+#warranty:checked ~ .service-wrap .warranty-text,
 #credit:checked ~ .service-wrap .credit-text {
   display: block;
 }
@@ -1303,7 +1298,7 @@ textarea[name="letter"] {
   font-weight: 700;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  background-color: inherit;
+  background-color: transparent;
   border: none;
 }
 
@@ -1571,6 +1566,7 @@ footer nav {
   position: absolute;
   content: "";
   top: 16px;
+  left: 0;
   width: 80px;
   height: 7px;
   background-color: #f7e184;
@@ -1996,6 +1992,7 @@ fieldset h4 {
 
 .inner-form button {
   position: relative;
+  z-index: -1;
   margin-left: -2px;
   width: 200px;
   height: 40px;
