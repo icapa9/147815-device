@@ -103,9 +103,9 @@ header .index-logo {
 }
 
 .index-logo a {
-  font-family: "Gilroy";
   font-size: 48px;
   line-height: 48px;
+  font-family: "Gilroy";
   font-weight: 700;
   letter-spacing: 0.01em;
   text-decoration: none;
@@ -974,7 +974,13 @@ nav a:active {
   display: inline-block;
   vertical-align: top;
   margin-right: 40px;
+}
+
+.brands-logo a {
+  display: inline-block;
+  vertical-align: top;
   width: 260px;
+  height: 100px;
 }
 
 .brands-logo li:nth-child(1) {
@@ -1193,18 +1199,30 @@ nav a:active {
 
 .main-form-show {
   display: block;
-  animation: rotate 0.3s;
+  -webkit-animation: rotate 0.3s;
+          animation: rotate 0.3s;
+}
+
+@-webkit-keyframes rotate {
+  0% {-webkit-transform: rotateZ(-50deg);transform: rotateZ(-50deg);}
+  10% {-webkit-transform: rotateZ(-40deg);transform: rotateZ(-40deg);}
+  20% {-webkit-transform: rotateZ(-30deg);transform: rotateZ(-30deg);}
+  40% {-webkit-transform: rotateZ(-20deg);transform: rotateZ(-20deg);}
+  60% {-webkit-transform: rotateZ(-10deg);transform: rotateZ(-10deg);}
+  80% {-webkit-transform: rotateZ(-5deg);transform: rotateZ(-5deg);}
+  90% {-webkit-transform: rotateZ(-2deg);transform: rotateZ(-2deg);}
+  100% {-webkit-transform: rotateZ(0deg);transform: rotateZ(0deg);}
 }
 
 @keyframes rotate {
-  0% {transform: rotateZ(-50deg);}
-  10% {transform: rotateZ(-40deg);}
-  20% {transform: rotateZ(-30deg);}
-  40% {transform: rotateZ(-20deg);}
-  60% {transform: rotateZ(-10deg);}
-  80% {transform: rotateZ(-5deg);}
-  90% {transform: rotateZ(-2deg);}
-  100% {transform: rotateZ(0deg);}
+  0% {-webkit-transform: rotateZ(-50deg);transform: rotateZ(-50deg);}
+  10% {-webkit-transform: rotateZ(-40deg);transform: rotateZ(-40deg);}
+  20% {-webkit-transform: rotateZ(-30deg);transform: rotateZ(-30deg);}
+  40% {-webkit-transform: rotateZ(-20deg);transform: rotateZ(-20deg);}
+  60% {-webkit-transform: rotateZ(-10deg);transform: rotateZ(-10deg);}
+  80% {-webkit-transform: rotateZ(-5deg);transform: rotateZ(-5deg);}
+  90% {-webkit-transform: rotateZ(-2deg);transform: rotateZ(-2deg);}
+  100% {-webkit-transform: rotateZ(0deg);transform: rotateZ(0deg);}
 }
 
 .main-form label {
@@ -1352,11 +1370,13 @@ textarea[name="letter"] {
  }
 
 [name="close"]::before {
-  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
 
 [name="close"]::after {
-  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
 
 footer {
