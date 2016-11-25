@@ -155,7 +155,7 @@ header .index-logo {
   left: 3px;
   width: 16px;
   height: 16px;
-  background: url("../img/icons-sprite.png") no-repeat -5px -89px;
+  background: url("../img/spritesheet.png") no-repeat -288px -322px;
 }
 
 .search button {
@@ -213,7 +213,7 @@ header .index-logo {
   left: 20px;
   width: 13px;
   height: 12px;
-  background: url("../img/icons-sprite.png") no-repeat -80px -89px;
+  background: url("../img/spritesheet.png") no-repeat -750px -322px;
 }
 
 .header-top {
@@ -271,7 +271,7 @@ header li {
   left: 2px;
   width: 10px;
   height: 10px;
-  background: url("../img/icons-sprite.png") no-repeat -71px -5px;
+  background: url("../img/spritesheet.png") no-repeat -670px -71px;
 }
 
 .top-icons .basket-icon-head::before {
@@ -281,7 +281,7 @@ header li {
   left: 0px;
   width: 12px;
   height: 12px;
-  background: url("../img/icons-sprite.png") no-repeat -5px -5px;
+  background: url("../img/spritesheet.png") no-repeat -670px -5px;
 }
 
 .slider {
@@ -386,7 +386,7 @@ header li {
   right: -7px;
   width: 166px;
   height: 131px;
-  background: url("../img/slider-sprite.png") no-repeat -5px -5px;
+  background: url("../img/spritesheet.png") no-repeat -5px -5px;
 }
 
 .slide-2 .slider-text::after {
@@ -396,7 +396,7 @@ header li {
   right: -13px;
   width: 198px;
   height: 131px;
-  background: url("../img/slider-sprite.png") no-repeat -5px -146px;
+  background: url("../img/spritesheet.png") no-repeat -181px -5px;
 }
 
 .slide-3 .slider-text::after {
@@ -406,7 +406,7 @@ header li {
   right: -4px;
   width: 201px;
   height: 131px;
-  background: url("../img/slider-sprite.png") no-repeat -181px -5px;
+  background: url("../img/spritesheet.png") no-repeat -389px -5px;
 }
 
 .slide-3 .slider-text {
@@ -744,7 +744,7 @@ nav a:active {
   left: 31px;
   width: 97px;
   height: 55px;
-  background: url("../img/catalog-sprite.png") no-repeat -5px -84px;
+  background: url("../img/spritesheet.png") no-repeat -778px -225px;
 }
 
 .self-item::before {
@@ -754,7 +754,7 @@ nav a:active {
   left: 38px;
   width: 86px;
   height: 117px;
-  background: url("../img/catalog-sprite.png") no-repeat -112px -84px;
+  background: url("../img/spritesheet.png") no-repeat -778px -290px;
 }
 
 .action-item::before {
@@ -764,7 +764,7 @@ nav a:active {
   left: 49px;
   width: 71px;
   height: 87px;
-  background: url("../img/catalog-sprite.png") no-repeat -208px -5px;
+  background: url("../img/spritesheet.png") no-repeat -885px -225px;
 }
 
 .fitness-item::before {
@@ -774,7 +774,7 @@ nav a:active {
   left: 28px;
   width: 107px;
   height: 65px;
-  background: url("../img/catalog-sprite.png") no-repeat -5px -211px;
+  background: url("../img/spritesheet.png") no-repeat -171px -322px;
 }
 
 .watch-item::before {
@@ -784,7 +784,7 @@ nav a:active {
   left: 55px;
   width: 56px;
   height: 98px;
-  background: url("../img/catalog-sprite.png") no-repeat -208px -102px;
+  background: url("../img/spritesheet.png") no-repeat -587px -322px;
 }
 
 .copter-item::before {
@@ -794,7 +794,7 @@ nav a:active {
   left: 13px;
   width: 132px;
   height: 69px;
-  background: url("../img/catalog-sprite.png") no-repeat -5px -5px;
+  background: url("../img/spritesheet.png") no-repeat -636px -225px;
 }
 
 .delivery-text,
@@ -833,7 +833,7 @@ nav a:active {
   right: 66px;
   width: 136px;
   height: 164px;
-  background: url("../img/service-slider.png") no-repeat -171px -5px;
+  background: url("../img/spritesheet.png") no-repeat -171px -146px;
 }
 
 .warranty-text::after {
@@ -843,7 +843,7 @@ nav a:active {
   right: 46px;
   width: 171px;
   height: 195px;
-  background: url("../img/service-slider.png") no-repeat -171px -179px;
+  background: url("../img/spritesheet.png") no-repeat -653px -417px;
 }
 
 .credit-text::after {
@@ -853,7 +853,7 @@ nav a:active {
   right: 70px;
   width: 156px;
   height: 188px;
-  background: url("../img/service-slider.png") no-repeat -5px -5px;
+  background: url("../img/spritesheet.png") no-repeat -5px -146px;
 }
 
 .service-wrap {
@@ -986,41 +986,41 @@ nav a:active {
 .brands-logo li:nth-child(1) {
   width: 260px;
   height: 100px;
-  background: url("../img/brands-sprite.png") no-repeat -5px -5px;
+  background: url("../img/spritesheet.png") no-repeat -366px -183px;
 }
 
 .brands-logo li:nth-child(1):hover {
-  background: url("../img/brands-sprite.png") no-repeat -5px -115px;
+  background: url("../img/spritesheet.png") no-repeat -317px -293px;
 }
 
 .brands-logo li:nth-child(2) {
   width: 260px;
   height: 100px;
-  background: url("../img/brands-sprite.png") no-repeat -5px -225px;
+  background: url("../img/spritesheet.png") no-repeat -5px -403px;
 }
 
 .brands-logo li:nth-child(2):hover {
-  background: url("../img/brands-sprite.png") no-repeat -5px -335px;
+  background: url("../img/spritesheet.png") no-repeat -275px -403px;
 }
 
 .brands-logo li:nth-child(3) {
   width: 260px;
   height: 100px;
-  background: url("../img/brands-sprite.png") no-repeat -275px -5px;
+  background: url("../img/spritesheet.png") no-repeat -5px -513px;
 }
 
 .brands-logo li:nth-child(3):hover {
-  background: url("../img/brands-sprite.png") no-repeat -275px -115px;
+  background: url("../img/spritesheet.png") no-repeat -275px -513px;
 }
 
 .brands-logo li:nth-child(4) {
   width: 260px;
   height: 100px;
-  background: url("../img/brands-sprite.png") no-repeat -275px -225px;
+  background: url("../img/spritesheet.png") no-repeat -692px -5px;
 }
 
 .brands-logo li:nth-child(4):hover {
-  background: url("../img/brands-sprite.png") no-repeat -275px -335px;
+  background: url("../img/spritesheet.png") no-repeat -689px -115px;
 }
 
 .brands-logo li:last-child {
@@ -1461,7 +1461,7 @@ footer .index-logo {
     left: 40px;
     width: 13px;
     height: 12px;
-    background: url("../img/icons-sprite.png") no-repeat -118px -5px;
+    background: url("../img/spritesheet.png") no-repeat -874px -322px;
 }
 
 .footer-enter-exit a:hover::before {
@@ -1471,7 +1471,7 @@ footer .index-logo {
   left: 40px;
   width: 13px;
   height: 12px;
-  background: url("../img/icons-sprite.png") no-repeat -118px -27px;
+  background: url("../img/spritesheet.png") no-repeat -897px -322px;
 }
 
 .footer-icons {
@@ -1485,7 +1485,7 @@ footer .index-logo {
   left: 46px;
   width: 10px;
   height: 10px;
-  background: url("../img/icons-sprite.png") no-repeat -71px -25px;
+  background: url("../img/spritesheet.png") no-repeat -600px -91px;
 }
 
 .footer-icons .compare-icon-footer:hover::before {
@@ -1495,7 +1495,7 @@ footer .index-logo {
   left: 46px;
   width: 10px;
   height: 10px;
-  background: url("../img/icons-sprite.png") no-repeat -5px -45px;
+  background: url("../img/spritesheet.png") no-repeat -620px -91px;
 }
 
 .footer-icons .basket-icon-footer::before {
@@ -1505,7 +1505,7 @@ footer .index-logo {
   left: 176px;
   width: 12px;
   height: 12px;
-  background: url("../img/icons-sprite.png") no-repeat -27px -5px;
+  background: url("../img/spritesheet.png") no-repeat -670px -27px;
 }
 
 .footer-icons .basket-icon-footer:hover::before {
@@ -1515,7 +1515,7 @@ footer .index-logo {
   left: 176px;
   width: 12px;
   height: 12px;
-  background: url("../img/icons-sprite.png") no-repeat -49px -5px;
+  background: url("../img/spritesheet.png") no-repeat -670px -49px;
 }
 
 .footer-top li {
@@ -1615,19 +1615,19 @@ footer nav {
 .social .social-fb {
   width: 39px;
   height: 38px;
-  background: url("../img/social-sprite.png") no-repeat -5px -5px;
+  background: url("../img/spritesheet.png") no-repeat -640px -91px;
 }
 
 .social .social-ins {
   width: 39px;
   height: 38px;
-  background: url("../img/social-sprite.png") no-repeat -54px -5px;
+  background: url("../img/spritesheet.png") no-repeat -317px -183px;
 }
 
 .social .social-tw {
   width: 39px;
   height: 38px;
-  background: url("../img/social-sprite.png") no-repeat -5px -53px;
+  background: url("../img/spritesheet.png") no-repeat -702px -322px;
 }
 
 .social li:nth-child(-n+2) {
@@ -1642,11 +1642,11 @@ footer nav {
   margin-top: 2px;
   width: 27px;
   height: 34px;
-  background: url("../img/icons-sprite.png") no-repeat -25px -27px;
+  background: url("../img/spritesheet.png") no-repeat -600px -139px;
 }
 
 .made-by-logo:hover {
-  background: url("../img/icons-sprite.png") no-repeat -62px -45px;
+  background: url("../img/spritesheet.png") no-repeat -637px -139px;
 }
 
 .made-by-logo:active {
@@ -1702,7 +1702,7 @@ footer nav {
   right: -19px;
   width: 4px;
   height: 7px;
-  background: url("../img/icons-sprite.png") no-repeat -91px -5px;
+  background: url("../img/spritesheet.png") no-repeat -962px -5px;
 }
 
 .breadcrumbs a {
@@ -1903,7 +1903,7 @@ fieldset h4 {
 }
 
 .color input:checked + label::before {
-  background: url("../img/icons-sprite.png") no-repeat -52px -81px #c4c4c4;
+  background: url("../img/spritesheet.png") no-repeat -674px -314px #c4c4c4;
 }
 
 .bluetooth h4 {
@@ -2086,13 +2086,13 @@ fieldset h4 {
 .triangles .up {
   width: 17px;
   height: 9px;
-  background: url("../img/icons-sprite.png") no-repeat -31px -89px;
+  background: url("../img/spritesheet.png") no-repeat -653px -322px;
 }
 
 .triangles .down {
   width: 17px;
   height: 9px;
-  background: url("../img/icons-sprite.png") no-repeat -91px -22px;
+  background: url("../img/spritesheet.png") no-repeat -600px -115px;
 }
 
 .article-wrap {
@@ -2202,7 +2202,7 @@ fieldset h4 {
   right: 27px;
   width: 60px;
   height: 61px;
-  background: url("../img/new.png");
+  background: url("../img/spritesheet.png") no-repeat -600px -5px;
 }
 
 .box:nth-child(odd) {
